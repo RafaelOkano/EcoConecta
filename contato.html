@@ -1,0 +1,83 @@
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EcoConecta Contato</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <a href="index.html">
+        <img
+          src="imagens/tecnologia-verde.png"
+          alt="logo da empresa EcoConecta"
+        />
+      </a>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="servico.html">Serviços</a>
+        <a href="contato.html">Contato</a>
+      </nav>
+    </header>
+  
+    <h1 class="cssh1">Contato</h1>
+
+    <main class="contatomain">
+      <form action="teste.html" method="post" class="contatoform">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" minlength="3" class="widthinput" required />
+
+        <label for="telefone">Telefone:</label>
+        <input
+          type="number"
+          id="telefone"
+          minlength="9"
+          maxlength="14"
+          class="widthinput"
+          required
+        />
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" class="widthinput" required />
+
+        <label for="formaContato" 
+          >Como prefere receber nosso contato? 
+          <section>
+          <input type="checkbox" id="formaContato"/> Email
+          <input type="checkbox" id="formaContato"/> Telefone
+          <input type="checkbox" id="formaContato"/> Whatsapp
+          </section>
+        </label>
+
+        <label for="turno" class="turno"
+          >Selecione o turno que deseja ser atendido:
+          <input type="radio" id="turno" name="turnoatend" required /> Manhã
+          <input type="radio" id="turno" name="turnoatend" required /> Tarde
+        </label>
+        
+        <label for="mensagem">Digite aqui sua mensagem para nós:</label>
+        <textarea name="" class="widthinput" id="mensagem" cols="30" rows="10"></textarea>
+
+        <button class="button" type="submit">Enviar</button>
+      </form>
+
+      <section class="contatosection"> 
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d467692.3955887768!2d-46.924956873700296!3d-23.681434601579134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce448183a461d1%3A0x9ba94b08ff335bae!2zU8OjbyBQYXVsbywgU1A!5e0!3m2!1spt-BR!2sbr!4v1725323583508!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <p>Rua: Abcd,0000 - Centro,São Paulo,SP</p>
+        
+        <section class="logoredes">
+        <img src="imagens/gmail.png" alt="logo gmail" class="contatoimg"/> 
+        ecoconecta@gmail.com
+        <img src="imagens/instagram.png" alt="logo instagram" class="contatoimg" /> 
+        @EcoConectaOficial
+        <img src="imagens/whatsapp.png" alt="logo whatsapp" class="contatoimg" /> 
+        (00) 99999-9999
+        </section>
+      </section>
+       
+    </main>
+  </body>
+
+  <footer>Copyright EcoConecta Serviços - 2024</footer>
+</html>

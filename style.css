@@ -1,0 +1,177 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+header {
+  background-color: #88e9aa;
+  display: flex;
+  justify-content: space-between;
+  height: 120px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  font-weight: bolder;
+}
+
+header img {
+  width: 120px;
+  height: 120px;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+}
+
+header nav a {
+  text-decoration: none;
+  color: black;
+  margin: 75px;
+  padding: 0px;
+  text-transform: uppercase;
+  font-weight: 100;
+}
+
+header nav a:hover {
+  color: rgb(24, 156, 24);
+}
+
+main {
+  font-size: large;
+  font-weight: 200;
+  width: 100%;
+  height: 100%
+}
+
+main iframe {
+  width: 100%;
+  height: 600px;
+}
+
+.sectionindex {
+  background-color: rgb(205, 205, 205);
+  border-radius: 5px;
+  margin: 20px 5px 20px 5px;
+  padding: 20px;
+}
+
+section h1 {
+  padding-bottom: 5px;
+  text-align: center;
+}
+
+section p {
+  padding: 8px;
+}
+
+section ol {
+  padding-top: 15px;
+}
+
+section ol li {
+  padding: 5px;
+}
+
+section ul {
+  padding-top: 15px;
+}
+
+section ul li {
+  padding: 5px;
+}
+
+.cssh1 {
+  display: flex;
+  justify-content: center;
+  font-size: xx-large;
+  margin-bottom: 3%;
+}
+
+.contatomain {
+  display: flex;
+  justify-content: space-around;
+  height: 100%;
+}
+
+.contatoform {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+form input {
+  margin-bottom: 15px;
+}
+
+.widthinput {
+  width: 50%;
+}
+
+.turno{
+  width: 50%;
+}
+
+.button {
+  margin: 5px;
+  width: 10%;
+}
+
+.contatosection {
+  display: flex;
+  flex-direction: column;
+  height: 80%;
+  width: 35%;
+}
+
+.logoredes{
+  display: inline-block;
+  width: 32%;
+  height: 100%;
+
+}
+
+.contatoimg {
+  height: 22px;
+  width: 22px;
+  margin-left:0px;
+}
+
+.group-card {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.service_h1 {
+  display: flex;
+  justify-content: center;;
+  font-size: xx-large;
+}
+
+.sectserv {
+  background-color: rgb(219, 217, 217);
+  border-radius: 5px;
+  width: 350px;
+  height: 300px;
+  margin: 10px;
+  padding: 1%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.imgserv {
+  width: 220px;
+  height: 150px;
+}
+
+footer {
+  font-size: larger;
+  background-color: rgb(162, 161, 161);
+  text-align: center;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
